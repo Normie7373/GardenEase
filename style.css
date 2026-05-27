@@ -1,0 +1,545 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body {
+  background-color: #1c1c1c;
+}
+
+.video2 {
+  align-items: center;
+}
+
+.enlarge {
+  transform: Scale(2);
+}
+
+.video {
+  overflow: hidden;
+}
+
+.hm {
+  font-style: italic;
+}
+
+.heading {
+  font-family: "Consolas";
+}
+
+.lm {
+  font-style: italic;
+}
+
+#about {
+  margin-top: 7%;
+  font-style: italic;
+}
+
+.cion {
+  height: 70px;
+  width: 70px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.nav-link,
+.navbar-brand {
+  color: white !important;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.stor {
+  color: #fff;
+  text-align: center;
+  font-family: "Playfair";
+  width: 100%;
+  height: 300px;
+}
+
+.glow-btn {
+  margin-top: 25px;
+  padding: 15px 0px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  background: linear-gradient(90deg, #111827, #374151);
+  box-shadow: 0 0 rgba(122, 252, 255, 0.1);
+  transition:
+    transform 200ms ease,
+    box-shadow 200ms ease;
+  margin: 25px 37%;
+  font-style: italic;
+}
+
+.glow-btn:hover {
+  transform: translateY(-3px);
+  color: #fff;
+}
+
+.stor {
+  background-image: url("https://t4.ftcdn.net/jpg/07/31/78/97/360_F_731789731_5m2KJmH87vPFA4UIr4bXZOsK6IsvaTIs.jpg");
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  font-family: "Sans-Serif";
+  margin-bottom: 3%;
+}
+
+.all {
+  color: white;
+}
+
+.main-image {
+  height: 80vh;
+}
+
+.black {
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+.main-para {
+  opacity: 0.8;
+}
+
+.main-heading {
+  font-family: "Comic Sans MS";
+}
+
+.main-para {
+  font-size: 22px;
+  font-style: italic;
+}
+
+.heading {
+  color: #67d685;
+  font-size: 30px;
+}
+
+.paragraph {
+  color: #dcf2e2;
+  font-size: 20px;
+  opacity: 0.8;
+  font-style: italic;
+}
+
+.learnmore {
+  color: #1c6b31;
+  font-family: "Playfair";
+}
+
+.video {
+  text-align: center;
+}
+
+.head1 {
+  color: #067a0e;
+  margin-top: 25px;
+}
+
+.para1 {
+  font-size: 20px;
+}
+
+.footer_card {
+  background-color: darkgreen;
+  height: 400px;
+  width: 170vw;
+}
+
+.plantify_heading {
+  color: white;
+  font-weight: bold;
+  font-family: "Roboto";
+  padding-top: 48px;
+  font-size: 32px;
+}
+
+.plantify_paragraph {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.usefullinks_heading {
+  color: white;
+  font-weight: bold;
+  font-family: "Roboto";
+  font-size: 17px;
+}
+
+.usefullinks_paragraph {
+  color: grey;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.usefullinks_paragraph:hover {
+  color: white;
+}
+
+.contact_us_paragraph {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.fa-facebook-f {
+  color: white;
+}
+
+.fa-github {
+  color: white;
+}
+
+.fa-youtube {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.site-footer {
+  background: #0f3d24;
+  color: #ffffff;
+  padding: 48px 0 28px;
+  box-sizing: border-box;
+  margin-bottom: -80px;
+}
+
+.site-footer .container {
+  max-width: 1200px;
+}
+
+.footer-brand {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  margin-bottom: 14px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.footer-desc {
+  color: #dfeee1;
+  font-size: 14px;
+  line-height: 1.45;
+  margin-bottom: 1rem;
+}
+
+.footer-social {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer-social .social-link {
+  display: inline-flex;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+  text-decoration: none;
+  transition:
+    transform 0.12s ease,
+    background 0.12s ease;
+}
+
+.footer-social .social-link:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.footer-heading {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+}
+
+.footer-links li {
+  margin: 6px 0;
+}
+
+.footer-links li a {
+  color: #cbdccf;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.footer-links li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-contact {
+  color: #dfeee1;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.footer-contact a {
+  color: #dfeee1;
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  text-decoration: underline;
+}
+
+.site-footer small {
+  color: #c8d7ca;
+}
+
+.footer_card,
+.footer_card * {
+  width: auto !important;
+  max-width: 100% !important;
+}
+
+.iimg {
+  align-self: center;
+  padding: 15px;
+}
+
+body {
+  background-color: #1c1c1c !important;
+  font-family: "Roboto", "sans-serif";
+  color: #fff;
+  padding-bottom: 80px;
+}
+
+.navbar {
+  background: #00000059;
+}
+
+.logo {
+  height: 48px;
+  width: 48px;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+}
+
+.store {
+  background-image: url("https://t4.ftcdn.net/jpg/07/31/78/97/360_F_731789731_5m2KJmH87vPFA4UIr4bXZOsK6IsvaTIs.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 12px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+}
+
+#section1 .paragraph,
+#section1 .main-para {
+  font-size: 0.95rem;
+  line-height: 1.3;
+}
+
+#section1 .iimg {
+  width: 56px;
+  padding: 6px;
+  flex: 0 0 auto;
+}
+
+#section1 .iimg img,
+#section1 .cion {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.store h1 {
+  font-family: "serif";
+  color: #fff;
+  margin: 0;
+  font-size: 36px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: #232323;
+  border-radius: 14px;
+  border: 1px solid #1c1c1c;
+  padding: 12px;
+}
+
+.card .plant {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.card-body {
+  padding: 8px 6px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin: 6px 0;
+  color: #dfffe6;
+  font-family: "Playfair Display", serif;
+}
+
+.desc {
+  font-size: 13px;
+  color: #c9dccf;
+  margin-bottom: 8px;
+  min-height: 36px;
+}
+
+#section1 .black {
+  padding: 1rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.price {
+  font-weight: 700;
+  color: #67d685;
+  font-size: 16px;
+}
+
+.buy-btn {
+  margin-top: 8px;
+  display: inline-block;
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  background: transparent;
+  border: 1px solid #67d685;
+  color: #dfffe6;
+  text-decoration: none;
+}
+
+.buy-btn:hover {
+  transform: translateY(-3px);
+  color: green;
+}
+
+.card1:hover {
+  transform: translateY(-15px);
+  transition: transform 180ms ease;
+  box-shadow: 0 8px 20px #00000080;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  transition: transform 180ms ease;
+  box-shadow: 0 8px 20px #00000080;
+}
+
+.section-title {
+  color: #67d685;
+  margin: 24px 0 8px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#section1 iframe {
+  width: 100% !important;
+  max-width: 100%;
+  height: auto !important;
+  aspect-ratio: 16/9;
+}
+
+.head2 {
+  font-size: 24px;
+  font-family: "Caveat";
+  text-align: center;
+}
+
+.head3 {
+  color: green;
+  font-style: italic;
+  padding: 5px;
+}
+
+.para2 {
+  color: white;
+  font-style: italic;
+  padding: 5px;
+}
+
+.pic {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card1 {
+  background-color: #232323;
+  border-width: 2px;
+  border-style: solid;
+  margin: 10px;
+  width: 50vw;
+  text-align: center;
+  border-color: #232323;
+  border-radius: 14px;
+  border: 1px solid #1c1c1c;
+  padding: 20px;
+  margin: 40px auto;
+}
+
+.image_card {
+  height: 700px;
+  background-size: cover;
+  width: 200px;
+  height: 300px;
+  margin: 1px;
+}
+
+.head2 {
+  box-shadow: 0;
+}
+
+#section1 .iimg {
+  flex: 0 0 56px;
+  max-width: 56px;
+  min-width: 40px;
+  padding: 6px;
+}
+
+.feature-heading {
+  font-family: "Lobster";
+  color: green;
+}
+
+.feature-paragraph {
+  font-style: italic;
+  font-family: "Roboto";
+}
+
+.card .plant {
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
